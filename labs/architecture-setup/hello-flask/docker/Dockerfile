@@ -1,4 +1,5 @@
-FROM registry.ocp4.example.com:8443/ubi8/python-39
+#FROM registry.ocp4.example.com:8443/ubi8/python-39
+FROM registry.access.redhat.com/ubi9/python-39:1-108
 
 # By default, listen on port 8081
 EXPOSE 8081/tcp
