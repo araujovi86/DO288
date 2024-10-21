@@ -1,4 +1,5 @@
--i http://nexus-infra.apps.ocp4.example.com/repository/pypi/simple --trusted-host nexus-infra.apps.ocp4.example.com
+#-i http://nexus-infra.apps.ocp4.example.com/repository/pypi/simple --trusted-host nexus-infra.apps.ocp4.example.com
+-i http://nexus-infra.apps.snc.example.com/repository/pypi/simple --trusted-host nexus-infra.apps.snc.example.com
 Flask==2.1.0
 gunicorn==20.1.0
 click==8.1.7
