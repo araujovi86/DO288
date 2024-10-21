@@ -69,7 +69,7 @@ components:
       buildContext: .
       rootRequired: false
       uri: docker/Dockerfile
-    imageName: registry.ocp4.example.com:8443/developer/hello-flask
+    imageName: registry.access.redhat.com/ubi9/python-39:1-108
   name: build
 
 - kubernetes:
